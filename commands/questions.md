@@ -8,7 +8,7 @@ Run the design-reviewer skill in **questions** mode on:
 $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules. Read what was supplied (document-reader for PDFs, spreadsheet-reader for BOMs).
-2. Walk `references/design-review-checklist.md` but output only the questions. A question is warranted when the design is silent, ambiguous or inconsistent on a checklist item; do not ask about things the design already answers.
+2. Walk `${CLAUDE_PLUGIN_ROOT}/skills/design-reviewer/references/design-review-checklist.md` but output only the questions. A question is warranted when the design is silent, ambiguous or inconsistent on a checklist item; do not ask about things the design already answers.
 3. Output:
 ```
 QUESTIONS FOR DESIGNER

@@ -9,7 +9,7 @@ Run the design-reviewer skill in **bom-check** mode on:
 $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules. Profile the BOM with the copilot-common spreadsheet-reader profiler (run it as that skill describes, with its own `${CLAUDE_PLUGIN_ROOT}`). If the script cannot be located, ask the engineer for a CSV export and read it directly.
-2. Follow `references/bom-check-method.md`: build the drawing count per item from legends, schedules and callouts (cite the sheet for each count); normalise BOM descriptions and units; match on item type then size then quantity.
+2. Follow `${CLAUDE_PLUGIN_ROOT}/skills/design-reviewer/references/bom-check-method.md`: build the drawing count per item from legends, schedules and callouts (cite the sheet for each count); normalise BOM descriptions and units; match on item type then size then quantity.
 3. Output only:
 ```
 BOM CHECK

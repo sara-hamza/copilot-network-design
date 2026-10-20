@@ -1,7 +1,7 @@
 ---
 name: design-reviewer
 description: This skill should be used when a designer or design reviewer drops in FTTP/GPON estate drawings (PDF), design notes, a BOM spreadsheet or a design standard and asks "review this design", "does the BOM match the drawings", "check splitter capacity", "what is missing from the handover pack" or "what should I ask the designer". Covers FDH, splitters, feeder, drops and pits. Local only.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Design Reviewer
